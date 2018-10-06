@@ -54,7 +54,7 @@
 
         <android.support.design.widget.NavigationView
             android:id="@+id/nav_view"
-            android:background="#ffccBD"
+            android:background="#E57373"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="start"
@@ -64,11 +64,18 @@
 
 
     </android.support.v4.widget.DrawerLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-<android.support.design.widget.FloatingActionButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom|right"
-    android:src="@drawable/add"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fab"
+        app:fabSize="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add" />
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>
