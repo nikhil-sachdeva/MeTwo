@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "756668095456",
+    "firebase_url": "https://metoo-70670.firebaseio.com",
+    "project_id": "metoo-70670",
+    "storage_bucket": "metoo-70670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756668095456:android:c8a12c947095895d",
+        "android_client_info": {
+          "package_name": "com.example.nikhil.mindtheapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756668095456-vc20fgnt11ajsf7ohdlh7f8gu44nrb41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrWoG0h7ToQQjxf1__M_u4yCrj403LtKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
