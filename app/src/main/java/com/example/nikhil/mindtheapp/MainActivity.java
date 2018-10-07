@@ -23,7 +23,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.example.nikhil.mindtheapp.Adapters.PageAdapter;
+=======
+import com.example.nikhil.mindtheapp.Navigation_Activities.Movements;
+import com.example.nikhil.mindtheapp.Navigation_Activities.NGOs;
+import com.example.nikhil.mindtheapp.Navigation_Activities.PoliceInfo;
+import com.example.nikhil.mindtheapp.Navigation_Activities.Products;
+import com.example.nikhil.mindtheapp.Navigation_Activities.SelfDefence;
+>>>>>>> origin/master
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -55,7 +63,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+<<<<<<< HEAD
         getSupportActionBar().setTitle("#MeTwo");
+=======
+        getSupportActionBar().setTitle("Me2");
+>>>>>>> origin/master
         user = FirebaseAuth.getInstance().getCurrentUser();
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -107,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if(item.getItemId()==R.id.self_defence){
+<<<<<<< HEAD
                     Intent i = new Intent(Intent.ACTION_VIEW);
                     i.setData(Uri.parse("https://www.youtube.com/results?search_query=self+defence"));
                     startActivity(i);
@@ -130,6 +143,21 @@ public class MainActivity extends AppCompatActivity {
                     Intent i = new Intent(Intent.ACTION_VIEW);
                     i.setData(Uri.parse("http://www.unwomen.org/en/what-we-do/leadership-and-political-participation/womens-movements"));
                     startActivity(i);
+=======
+                   startActivity(new Intent(MainActivity.this,SelfDefence.class));
+                }
+                if(item.getItemId()==R.id.products){
+                    startActivity(new Intent(MainActivity.this,Products.class));
+                }
+                if(item.getItemId()==R.id.pol_stations){
+                    startActivity(new Intent(MainActivity.this,PoliceInfo.class));
+                }
+                if(item.getItemId()==R.id.ngos){
+                    startActivity(new Intent(MainActivity.this,NGOs.class));
+                }
+                if(item.getItemId()==R.id.fem_mov){
+                    startActivity(new Intent(MainActivity.this,Movements.class));
+>>>>>>> origin/master
                 }
 
 

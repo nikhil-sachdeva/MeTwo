@@ -9,7 +9,10 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ToggleButton;
 
+<<<<<<< HEAD
 import com.example.nikhil.mindtheapp.Models.Post;
+=======
+>>>>>>> origin/master
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
