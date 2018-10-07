@@ -3,8 +3,10 @@
     package="com.example.nikhil.mindtheapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
 
     <application
         android:allowBackup="true"
@@ -24,6 +26,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CreatePost" />
+        <activity
+            android:name=".Navigation_Activities.SelfDefence"
+            android:label="@string/title_activity_self_defence"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Navigation_Activities.Products" />
+        <activity android:name=".Navigation_Activities.PoliceInfo" />
+        <activity android:name=".Navigation_Activities.NGOs" />
+        <activity android:name=".Navigation_Activities.Movements"></activity>
     </application>
 
 </manifest>

@@ -1,7 +1,10 @@
-package com.example.nikhil.mindtheapp;
+package com.example.nikhil.mindtheapp.Adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.nikhil.mindtheapp.Fragments.Confession;
+import com.example.nikhil.mindtheapp.Fragments.News;
 
 public class PageAdapter extends FragmentPagerAdapter {
     public PageAdapter(android.support.v4.app.FragmentManager fragmentManager) {

@@ -7,12 +7,12 @@
 
         android:angle="270" />
     <corners
-        android:radius="2dp" />
+        android:radius="10dp" />
     <padding
         android:left="10dp"
         android:top="10dp"
         android:right="10dp"
         android:bottom="10dp" />
-    <solid android:color="#FFA726" />
-    <stroke android:width="2dip" android:color="#000000" />
+    <solid android:color="#FFFDE7" />
+    <stroke android:width="2dip" android:color="#FDD835" />
 </shape>

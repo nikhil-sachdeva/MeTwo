@@ -6,4 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".CreatePost">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/cr_post_bg">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post Body"/>
+        <EditText
+            android:id="@+id/body"
+            android:layout_width="230dp"
+            android:layout_height="60dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"/>
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="230dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keep the post anonymous"/>
+
+            <ToggleButton
+                android:id="@+id/anon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/postbt"
+        android:src="@drawable/next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="290dp"/>
+</RelativeLayout>
 </android.support.constraint.ConstraintLayout>
